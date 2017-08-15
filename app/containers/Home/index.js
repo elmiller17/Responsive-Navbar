@@ -9,14 +9,16 @@ import Helmet from 'react-helmet';
 
 import './style.css';
 import './styleM.css';
+import Navbar from 'components/Navbar';
+
 
 export default class Home extends React.PureComponent {
   render() {
     return (
       <div className="container">
         <Helmet title="Home" meta={[ { name: 'description', content: 'Description of Home' }]}/>
+        <Navbar/>
 
-      < div className = "Navbar" >1223 </ div>
       </div>
     );
   }

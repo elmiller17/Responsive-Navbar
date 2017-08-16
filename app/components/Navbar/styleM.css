@@ -9,5 +9,10 @@
   .nav {
     display:none;
   }
+  .menuIcon {
+    display:flex;
+    margin-right:15px;
+    font-size:1.5em;
+  }
 
 }
